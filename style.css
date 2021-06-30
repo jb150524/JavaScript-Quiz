@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(132, 241, 245);
+  font-family: Noto Sans TC;
+}
+
+/* highscores and timer */
+.header {
+  background-color: rgb(235, 122, 94);
+  padding: 15px 50px;
+  font-weight: 700;
+}
+
+#timer {
+  float: right;
+}
+
+#highscore:hover {
+  color: #80ddee;
+}
+
+/* quiz instruction jumbotron */
+.jumbotron {
+  margin-top: 30px;
+  background-color: transparent;
+}
+
+.jumbotron h1 {
+  font-size: 80px;
+}
+
+.start-quiz-btn {
+  clear: both;
+  float: right;
+  margin: 30px;
+}
+
+.quiz-intro {
+  float: right;
+}
+
+
+/* quiz content */
+.quiz-section {
+  margin-top: 95px;
+  display: none;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+.btn {
+  display: block !important;
+  margin: 15px 0;
+  text-align: left;
+  background-color: #dbd63c;
+  border: none;
+  color: black;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background-color: #cfc918;
+  color: black;
+}
+
+.quiz {
+  display: none;
+}
+
+/* initials page */
+
+
+.initials-section {
+  display: none;
+}
+
+#initials:focus {
+  border: none!important;
+}
+
+.margin {
+  margin: 100px 30px;
+
+}
+
+/* Highscores page */
+.highscores-section {
+  display: none;
+}
+
+
+.highscore-btn{
+  display: inline!important;
+}
